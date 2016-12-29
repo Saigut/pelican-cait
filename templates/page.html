@@ -1,8 +1,6 @@
 {% extends "base.html" %}
 
-{% block title %}
-{{ page.title }}
-{% endblock title %}
+{% block title %}{{ page.title }}{% endblock title %}
 
 {% block stylesheets %}
     {{ super() }}
@@ -23,9 +21,9 @@
                 <section class="post-content">
                     {{ page.content }}
                 </section>
-                <hr/>
             </article>
         </li>
+		<hr/>
     </ol>
 </div>
 {% endblock %}

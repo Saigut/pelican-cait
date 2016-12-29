@@ -10,7 +10,8 @@ body {
   bottom: 0;
   right: auto;
   top: 0;
-  width: 25%;
+  /* width: 25%; */
+  width: 23%;
   min-width: 200px;
   padding-left: 8px;
   padding-right: 8px;
@@ -28,7 +29,8 @@ body {
   -o-transition: all 0.3s;
   transition: all 0.3s; }
   #site-title:hover {
-    color: #38c5c5; }
+    color: #38c5c5;
+    /* color: #eeeeee; */ }
 
 #site-desc {
   font-size: 1.3em;
@@ -36,7 +38,8 @@ body {
 
 #post-container {
   position: relative;
-  margin-left: 27%;
+  /* margin-left: 27%; */
+  margin-left: 25%;
   max-width: 800px;
   overflow-wrap: break-word; }
 
@@ -82,6 +85,17 @@ body {
     color: #8e927e; }
   .entry-header h1 {
     margin: 0.5em 0; }
+
+.list-header-font {
+	margin: 0.5em 0;
+    font-weight: bold;
+	font-size: 2em; }
+
+.archive-header-font {
+	margin: 0.4em 0;
+    font-weight: bold;
+	font-size: 1.6em; }
+
 
 .post-content a {
   color: #38c5c5; }

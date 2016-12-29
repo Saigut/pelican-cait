@@ -79,9 +79,12 @@ textarea {
   margin-top: 1.5em;
   font-size: 0.7em;
   text-align: center;
-  color: #38c5c5; }
+  /* color: #38c5c5; */
+  color: #272822; }
   #site-info a {
-    color: #eeeeee; }
+    /* color: #eeeeee; */
+    /* color: #272822; */
+    color: #38c5c5; }
 
 .side-shadow {
   -webkit-box-shadow: 3px 0px 8px 0px #8e927e;
